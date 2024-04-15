@@ -6,8 +6,11 @@ This project is a Realtime Sudoku Solver that utilizes computer vision technique
 ## Features
 
 👉 Realtime Sudoku Recognition: Capture live video feed of a Sudoku puzzle and recognize the digits in real time.
+
 👉 Computer Vision Grid Detection: Automatically detect the grid structure of the Sudoku puzzle using computer vision techniques.
+
 👉 CNN Digit Recognition: Utilize a trained CNN model to recognize and classify the digits extracted from the Sudoku grid.
+
 👉 Realtime Solution Display: Display the solution to the Sudoku puzzle in real time, overlaid on the video feed.
 
 ## Project Demo 
@@ -16,9 +19,13 @@ This project is a Realtime Sudoku Solver that utilizes computer vision technique
 
 ## Requirements
 • Python 3.x
+
 • OpenCV
+
 • NumPy
+
 • TensorFlow
+
 • Keras
 
 ## Installation
