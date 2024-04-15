@@ -14,8 +14,30 @@ This project is a Realtime Sudoku Solver that utilizes computer vision technique
 👉 Realtime Solution Display: Display the solution to the Sudoku puzzle in real time, overlaid on the video feed.
 
 ## Project Demo 
+• [Click Here](https://drive.google.com/file/d/1bfQtx1im1Fl0pPNkC0wBA0HW6iDRtQHW/view?usp=sharing)
 
+## CNN Model
+• The CNN model is trained to recognize the digits 0-9 from the Sudoku puzzle. It comprises multiple convolutional and pooling layers followed by fully connected layers for classification. The model is trained using the labeled images from the dataset to learn the features of handwritten digits.
 
+• After training the CNN model on the subset of the Chars74K dataset, it achieves an impressive accuracy of 99% on the test data. This high accuracy demonstrates the effectiveness of the CNN approach for digit recognition in Sudoku puzzles.
+
+• Link of the dataset : [Chars74k Dataset](https://www.kaggle.com/code/anuraggupta29/optical-character-recognition-chars74k-dataset)
+
+## Algorithm
+• The Sudoku solver algorithm is implemented in Python using the backtracking technique. Sudoku is a popular number puzzle game where the objective is to fill a 9x9 grid with digits so that each column, each row, and each of the nine 3x3 subgrids contain all of the digits from 1 to 9. The backtracking algorithm efficiently solves Sudoku puzzles by recursively exploring possible solutions and backtracking when a dead-end is reached.
+
+• Example Sudoku puzzle input (0 represents empty cells)
+sudoku_puzzle = [
+    [5, 3, 0, 0, 7, 0, 0, 0, 0],
+    [6, 0, 0, 1, 9, 5, 0, 0, 0],
+    [0, 9, 8, 0, 0, 0, 0, 6, 0],
+    [8, 0, 0, 0, 6, 0, 0, 0, 3],
+    [4, 0, 0, 8, 0, 3, 0, 0, 1],
+    [7, 0, 0, 0, 2, 0, 0, 0, 6],
+    [0, 6, 0, 0, 0, 0, 2, 8, 0],
+    [0, 0, 0, 4, 1, 9, 0, 0, 5],
+    [0, 0, 0, 0, 8, 0, 0, 7, 9]
+]
 
 ## Requirements
 • Python 3.x
@@ -31,14 +53,20 @@ This project is a Realtime Sudoku Solver that utilizes computer vision technique
 ## Installation
 
 1. Clone the repository:
-   ![git clone https://github.com/MrShivam-Pal/AR-Sudoku-Solver.git](https://github.com/MrShivam-Pal/AR-Sudoku-Solver.git)
+      ```
+      https://github.com/MrShivam-Pal/AR-Sudoku-Solver.git
+      ```
 
-2. Install the required Python packages:
-   pip install -r requirements.txt
+3. Install the required Python packages:
+   ```python
+   pip install -r requirements.
+   ```
 
 ## Usage
 1. Run the app.py script:
-   python app.py
+   ```
+   Python app.py
+   ```
 
 2. Point your camera towards a Sudoku puzzle and watch the solver in action!
 
